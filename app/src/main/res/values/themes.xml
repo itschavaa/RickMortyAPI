@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RickAndMortyAPI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#9279B4</item>
+        <item name="colorPrimaryVariant">#E8FF03</item>
+        <item name="colorOnPrimary">#C1ECFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#6BFAEC</item>
+        <item name="colorSecondaryVariant">#37668C</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.RickAndMortyAPI.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
